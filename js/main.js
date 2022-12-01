@@ -549,12 +549,12 @@ var contactForm = function() {
 			messages: {
 				name: "Please enter your name",
 				email: "Please enter a valid email address",
-				message: "Please enter a message"
+				message: "Please enter your story"
 			},
 			errorElement: 'span',
 			errorLabelContainer: '.form-error',
 			/* submit via ajax */
-			submitHandler: function(form) {		
+			/*submitHandler: function(form) {		
 				var $submit = $('.submitting'),
 					waitText = 'Submitting...';
 
@@ -588,7 +588,7 @@ var contactForm = function() {
 			         $submit.css('display', 'none');
 			      }
 		      });    		
-	  		}
+	  		} */
 			
 		} );
 	}
